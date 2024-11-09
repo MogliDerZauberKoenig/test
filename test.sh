@@ -58,7 +58,7 @@ function update_script() {
     msg_error "No ${APP} Installation Found!"
     exit
   fi
-  RELEASE="v2.11.2"
+  RELEASE="v2.11.3"
 
   UPD=$(whiptail --backtitle "Proxmox VE Helper Scripts" --title "SUPPORT" --radiolist --cancel-button Exit-Script "Spacebar = Select" 11 58 2 \
     "1" "Update Paperless-ngx to $RELEASE" ON \
